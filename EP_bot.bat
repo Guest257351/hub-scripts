@@ -12,7 +12,7 @@ set /p YN=
 :: read screen
 :loop
 cd C:\Program Files (x86)\Textract
-textra.exe /capture 500 410 880 500 C:\ProgramData\botch\dat.txt
+textra.exe /capture 500 410 880 500 C:\ProgramData\botch\dat.txt>nul
 cd C:\ProgramData\botch
 
 
